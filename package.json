@@ -1,0 +1,32 @@
+{
+  "name": "SimpleGulpSetup",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "gulp": "^3.8.11",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-webserver": "^0.9.1",
+    "opn": "^1.0.2",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/locomotes/SimpleGulpSetup.git"
+  },
+  "author": "Jon Dickerson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/locomotes/SimpleGulpSetup/issues"
+  },
+  "homepage": "https://github.com/locomotes/SimpleGulpSetup"
+}
