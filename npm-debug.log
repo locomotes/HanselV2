@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gulp-pluber' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json chrisFosterOG@1.0.0 No description
+6 warn package.json chrisFosterOG@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-pluber', null ]
+9 verbose cache add spec="gulp-pluber" args=["gulp-pluber",null]
+10 verbose parsed spec { raw: 'gulp-pluber',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'gulp-pluber',
+10 verbose parsed spec   rawSpec: '',
+10 verbose parsed spec   spec: '*',
+10 verbose parsed spec   type: 'range' }
+11 verbose parsed spec { raw: 'gulp-pluber',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'gulp-pluber',
+11 verbose parsed spec   rawSpec: '',
+11 verbose parsed spec   spec: '*',
+11 verbose parsed spec   type: 'range' }
+12 verbose addNamed [ 'gulp-pluber', '*' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 4751a200-gulp-pluber gulp-pluber@*
+15 verbose lock gulp-pluber@* /Users/jonathandickerson/.npm/4751a200-gulp-pluber.lock
+16 silly addNameRange { name: 'gulp-pluber', range: '*', hasData: false }
+17 verbose mapToRegistry name gulp-pluber
+18 verbose mapToRegistry uri https://registry.npmjs.org/gulp-pluber
+19 verbose request on initialization, where is /gulp-pluber
+20 verbose request after pass 1, where is /gulp-pluber
+21 verbose request url raw /gulp-pluber
+22 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-pluber' ]
+23 verbose request after pass 2, where is https://registry.npmjs.org/gulp-pluber
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 23:26:36
+26 verbose request id 3b9d725b40140d65
+27 http request GET https://registry.npmjs.org/gulp-pluber
+28 http 404 https://registry.npmjs.org/gulp-pluber
+29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '51',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Sun, 24 May 2015 03:26:37 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-jfk1022-JFK',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1432437997.056547,VS0,VE347' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '51',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Sun, 24 May 2015 03:26:37 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1432437997.056547,VS0,VE347' } ]
+31 silly lockFile 4751a200-gulp-pluber gulp-pluber@*
+32 silly lockFile 4751a200-gulp-pluber gulp-pluber@*
+33 verbose stack Error: 404 Not Found: gulp-pluber
+33 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+33 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+33 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+33 verbose stack     at Request.EventEmitter.emit (events.js:98:17)
+33 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+33 verbose stack     at Request.EventEmitter.emit (events.js:117:20)
+33 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+33 verbose stack     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+33 verbose stack     at _stream_readable.js:919:16
+33 verbose stack     at process._tickCallback (node.js:419:13)
+34 verbose statusCode 404
+35 verbose pkgid gulp-pluber
+36 verbose cwd /Users/jonathandickerson/projects/chrisFoster/ReactGulpSetup
+37 error Darwin 14.3.0
+38 error argv "node" "/usr/local/bin/npm" "install" "gulp-pluber"
+39 error node v0.10.28
+40 error npm  v2.0.0
+41 error code E404
+42 error 404 Not Found: gulp-pluber
+42 error 404
+42 error 404 'gulp-pluber' is not in the npm registry.
+42 error 404 You should bug the author to publish it (or use the name yourself!)
+42 error 404 It was specified as a dependency of 'chrisFosterOG'
+42 error 404
+42 error 404 Note that you can also install from a
+42 error 404 tarball, folder, http url, or git url.
+43 verbose exit [ 1, true ]

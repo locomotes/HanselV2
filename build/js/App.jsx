@@ -1,7 +1,6 @@
 var React = require('react');
-
-var Test = require('./Test.jsx');
+var Hansel = require('./Hansel.jsx');
 
 React.render(
-  <Test />, document.body
+  <Hansel />, document.body
 );
